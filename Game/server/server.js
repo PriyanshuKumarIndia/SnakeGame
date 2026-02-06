@@ -15,6 +15,8 @@ const io = new Server(server, {
   }
 });
 
+app.get('/', (_, res) => res.send('OK'));
+
 const state = {};
 const clientRooms = {};
 const intervalIds = {};

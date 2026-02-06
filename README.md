@@ -1,6 +1,6 @@
 # 🐍 Multiplayer Snake Game
 
-A real-time multiplayer snake game built with Node.js, Socket.IO, and HTML5 Canvas. Play solo or compete with friends!
+A real-time multiplayer snake game built with Node.js, Socket.IO, and HTML5 Canvas. Play solo or compete with friends! [Bold link Live](https://snakegame-userend.onrender.com)
 
 ## ✨ Features
 
@@ -77,7 +77,7 @@ A real-time multiplayer snake game built with Node.js, Socket.IO, and HTML5 Canv
 ## 📁 Project Structure
 
 ```
-multiplayerSnake/
+Game/
 ├── frontend/
 │   ├── index.html      # Game UI
 │   ├── index.js        # Client-side logic
@@ -106,7 +106,7 @@ Edit `server/constants.js` to customize game parameters:
 
 ```javascript
 FRAME_RATE = 10;  // Game speed (frames per second)
-GRID_SIZE = 20;   // Grid dimensions (20x20)
+GRID_SIZE = 30;   // Grid dimensions (20x20)
 ```
 
 ### CORS Settings

@@ -15,7 +15,7 @@ const CONFIG = {
   BG_COLOUR: '#231f20',
   SNAKE_COLOUR: '#c2c2c2',
   SNAKE2_COLOUR: '#e74c3c',
-  FOOD_COLOUR: '#16e635'
+  FOOD_COLOUR: '#7016e6'
 };
 
 socket.on('init', handleInit);

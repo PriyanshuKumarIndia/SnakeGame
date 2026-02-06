@@ -3,6 +3,9 @@ const SOCKET_URL =
     ? 'http://localhost:3000'
     : 'https://snakegame-gw8z.onrender.com';
 
+console.log(globalThis.location.hostname, ' -> Current Host');
+
+
 const socket = io(SOCKET_URL, {
   transports: ['websocket']
 });

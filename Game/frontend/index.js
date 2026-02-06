@@ -1,7 +1,7 @@
 const SOCKET_URL =
   globalThis.location.hostname === '127.0.0.1'
     ? 'http://localhost:3000'
-    : 'https://myBackendserver.com';
+    : 'https://snakegame-gw8z.onrender.com';
 
 const socket = io(SOCKET_URL, {
   transports: ['websocket']
